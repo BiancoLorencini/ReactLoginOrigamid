@@ -1,0 +1,141 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100vw;
+  height: 10vh;
+}
+
+.secondContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #0F1013;
+  height: 15vh;
+  color: #E8F0FD;
+  font-size:smaller;
+}
+
+.h1Style{
+  position: relative;
+}
+
+.spanStyle1::after{
+  position: absolute;
+  border-radius: 2px;
+  top: 120%;
+  bottom: 0;
+  right: 50%;
+  height: 2px;
+  width: 20px;
+  content: " ";
+  background-color: gray;
+}
+
+.spanStyle2{
+  position: absolute;
+  left: 0;
+  top: -13px;
+  content: "";
+  background: linear-gradient(to right, #C00FFD, #7B00EF);
+  width: 30px;
+  height: 3px;
+  border-radius: 3px;
+}
+
+.thirdContainer{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 50px;
+  background-color: #292A2E;
+  height: 75vh;
+  width: 100vw;
+}
+
+.mainForm{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 50px 20px;
+  color: white;
+}
+
+.mainForm2{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 50px 20px;
+  color: #E8F0FD;
+}
+
+.input{
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
+  margin: 15px 0;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+.entrar{
+  position: relative;
+  margin-bottom: 30px;
+  color: #E8F0FD;
+}
+
+.registro{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.pRegistro{
+  width: 27vw;
+  font-size: large;
+  line-height: 25px;
+}
+
+.buttonReg{
+  margin-top: 20px;
+  max-width: 150px;
+  height: 45px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 1px 1px 4px 0px black;
+  background: linear-gradient(to bottom, #B351FF, #671cb3);
+  transition: 0.2s ease-in-out;
+  color: white;
+}
+
+.buttonReg:hover{
+  background: linear-gradient(to bottom,#B351FF, #7e32b8);
+  transform: scale(1.02);
+  transition: 0.2s ease-in-out;
+  box-shadow: 1px 1px 8px 1px #B351FF;
+}
+
+.checkDiv{
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkBox{
+  margin-right: 5px;
+}
+
+.check{
+  margin-top: 10px;
+  display: flex;
+  width: 140px;
+}
+
+.senhaP{
+  margin-top: 10px;
+  text-align: end;
+  width: 140px;
+}
+
+.senhaP a {
+  color: #B351FF;
+}
+
